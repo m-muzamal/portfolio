@@ -78,7 +78,8 @@
           padding: 0;
         }
         h3 {
-          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
           font-size: 20px;
           margin: 15px;
         }
@@ -126,6 +127,11 @@
             color: var(--color-blue);
           }
         }
+      }
+    }
+    .content_reversed {
+      @include mb {
+        flex-direction: column-reverse;
       }
     }
   }

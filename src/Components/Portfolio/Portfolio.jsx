@@ -13,12 +13,7 @@ function Portfolio() {
       <div className="container">
         <span>Portfolio</span>
         <h2>Each project is a unique piece of development 🧩</h2>
-        <div className="content">
-          <div className="left">
-            <a href="https://car-rantel.netlify.app/" target="_blank">
-              <img src={web1} alt="" />
-            </a>
-          </div>
+        <div className="content content_reversed">
           <div className="right">
             <h3>CAR RENTAL (FEBRUARY 2023) 🚗</h3>
             <p>
@@ -51,6 +46,11 @@ function Portfolio() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="left">
+            <a href="https://car-rantel.netlify.app/" target="_blank">
+              <img src={web1} alt="" />
+            </a>
           </div>
         </div>
         <div className="content">
@@ -92,12 +92,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="content">
-          <div className="left">
-            <a href="https://e-sale.netlify.app/" target="_blank">
-              <img src={web4} alt="" />
-            </a>
-          </div>
+        <div className="content content_reversed">
           <div className="right">
             <h3>E-Store 📲</h3>
             <p>
@@ -128,6 +123,11 @@ function Portfolio() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="left">
+            <a href="https://e-sale.netlify.app/" target="_blank">
+              <img src={web4} alt="" />
+            </a>
           </div>
         </div>
         <div className="content">
