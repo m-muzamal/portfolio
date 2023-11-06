@@ -1,0 +1,38 @@
+@import "../../styleSheet/styleSheet.scss";
+
+.footer {
+    background: var(--color-primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        @include mb {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+        }
+        h2 {
+            color: white;
+        }
+        .icon {
+            display: flex;
+            font-size: 30px;
+            gap: 2rem;
+            a {
+                color: white;
+                svg {
+                    cursor: pointer;
+                }
+                svg:hover {
+                    transform: scale(1.4);
+                }
+            }
+        }
+    }
+}

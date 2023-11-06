@@ -1,0 +1,160 @@
+@import "../../styleSheet/styleSheet.scss";
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-primary);
+  height: auto;
+  @include md {
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 20px;
+    @include md {
+      height: 60%;
+      flex-direction: column;
+      text-align: left;
+    }
+    .my-info {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 20px;
+      @include md {
+        flex-direction: row;
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        @include md {
+          width: 50%;
+          flex-direction: column;
+        }
+        @include mb {
+          justify-content: center;
+          align-items: center;
+        }
+        img {
+          display: flex;
+          height: 4rem;
+          width: 4rem;
+          // right: 1rem;
+          // top: 4rem;
+          @include md {
+            position: absolute;
+            right: 11rem;
+            top: 4rem;
+          }
+        }
+        p {
+          margin: 25px 0;
+        }
+        .icons {
+          display: flex;
+          gap: 1.3rem;
+          align-items: center;
+          justify-content: center;
+          @include md {
+            justify-content: left;
+          }
+          a {
+            color: var(--color-primary);
+            font-size: 3rem;
+            transition: none;
+          }
+          a:hover {
+            color: var(--color-blue);
+          }
+        }
+      }
+      .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        @include md {
+          width: 50%;
+        }
+        .img {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          border: 3.5px solid var(--color-primary);
+          height: 300px;
+          width: 300px;
+          border-radius: 50%;
+          overflow: hidden;
+          animation: rotate 8s linear infinite;
+          @keyframes rotate {
+            0%,
+            100% {
+              border-radius: 40% 39% 28% 41%;
+            }
+            25% {
+              border-radius: 32% 37% 41% 38%;
+            }
+            50% {
+              border-radius: 30% 36% 35% 50%;
+            }
+            75% {
+              border-radius: 39% 40% 48% 30%;
+            }
+          }
+          img {
+            height: 170%;
+          }
+        }
+      }
+    }
+    .skills {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      @include md {
+        flex-direction: row;
+      }
+      p {
+        color: var(--color-primary);
+        font-weight: 700;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--color-primary);
+        padding-bottom: 0.5rem;
+        margin: 1rem;
+        @include md {
+          border-right: 1px solid var(--color-primary);
+          padding-right: 1.5rem;
+        }
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        @include md {
+          margin: 0px 50px;
+          height: 3rem;
+          flex-direction: row;
+        }
+        img {
+          display: flex;
+          cursor: pointer;
+          transition: transform 0.5s;
+        }
+        img:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

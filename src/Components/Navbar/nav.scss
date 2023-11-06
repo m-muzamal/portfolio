@@ -1,0 +1,43 @@
+@import "../../styleSheet/styleSheet.scss";
+
+.nav {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  padding: 25px 50px;
+  background: var(--color-bg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  @include md {
+    justify-content: space-between;
+  }
+  .left {
+    font-weight: 700;
+    a {
+      font-size: 25px;
+      font-weight: bolder;
+      cursor: pointer;
+      color: var(--color-primary);
+    }
+  }
+  .right {
+    display: none;
+    gap: 1.5rem;
+    a {
+      color: var(--color-primary);
+      font-weight: 700;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    a:hover {
+      color: var(--color-blue);
+    }
+    @include md {
+      display: flex;
+    }
+  }
+}

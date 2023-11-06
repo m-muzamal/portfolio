@@ -1,0 +1,132 @@
+@import "../../styleSheet/styleSheet.scss";
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-primary);
+  padding: 5rem 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    @include mb {
+      width: 95%;
+      text-align: center;
+    }
+    span {
+      font-weight: 700;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    h2 {
+      font-weight: 800;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 30px 0px;
+      @include mb {
+        flex-direction: column;
+        width: 100%;
+      }
+      .left {
+        width: 50%;
+        box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+        border-radius: 15px;
+        height: 400px;
+        overflow: hidden;
+        position: relative;
+        @include mb {
+          width: 100%;
+          height: 300px;
+        }
+        img {
+          height: auto;
+          width: 100%;
+          object-fit: cover;
+          cursor: pointer;
+          transition: transform 10s ease-in-out;
+          &:hover {
+            animation: scrollDown 10s linear infinite;
+          }
+        }
+        @keyframes scrollDown {
+          0% {
+            transform: translatey(0);
+          }
+          100% {
+            transform: translatey(-100%);
+          }
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 5rem;
+        width: 50%;
+        @include mb {
+          width: 100%;
+          padding: 0;
+        }
+        h3 {
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          font-size: 20px;
+          margin: 15px;
+        }
+        .btns {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 2rem;
+          .btn {
+            padding: 10px 20px;
+            margin-top: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          }
+        }
+        .btns2 {
+          display: flex;
+          gap: 3rem;
+          margin-top: 20px;
+          .btn1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0;
+            gap: 1rem;
+            cursor: pointer;
+            a {
+              color: var(--color-primary);
+              font-size: 20px;
+              font-weight: 100;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            a:hover {
+              color: var(--color-blue);
+            }
+            .icon {
+              display: flex;
+              font-size: 35px;
+            }
+            .box {
+              font-size: 25px;
+            }
+          }
+          .btn1:hover {
+            color: var(--color-blue);
+          }
+        }
+      }
+    }
+  }
+}
