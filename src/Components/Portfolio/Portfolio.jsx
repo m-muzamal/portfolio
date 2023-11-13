@@ -6,6 +6,7 @@ import web1 from "../../assets/web1.jpg";
 import web2 from "../../assets/web2.jpg";
 import web3 from "../../assets/web3.jpeg";
 import web4 from "../../assets/web4.jpg";
+import web5 from "../../assets/web5.jpeg";
 
 function Portfolio() {
   return (
@@ -168,6 +169,44 @@ function Portfolio() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="content content_reversed">
+          <div className="right">
+            <h3>Gymate 💪</h3>
+            <p>
+              Get fit and healthy at our gym by joining today. Your fitness
+              journey starts here with expert trainers. Make fitness a seamless
+              part of your lifestyle through affordable and flexible membership
+              options.
+            </p>
+            <div className="btns">
+              <div className="btn">React</div>
+              <div className="btn">SCSS</div>
+            </div>
+            <div className="btns2">
+              <div className="btn1">
+                <a href="https://github.com/m-muzamal/gymate" target="_blank">
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
+              <div className="btn1">
+                <a href="https://gmate.netlify.app/" target="_blank">
+                  Live_Demo
+                </a>
+                <div className="icon box">
+                  <BsBoxArrowUpRight />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="left">
+            <a href="https://gmate.netlify.app/" target="_blank">
+              <img src={web5} alt="" />
+            </a>
           </div>
         </div>
       </div>
