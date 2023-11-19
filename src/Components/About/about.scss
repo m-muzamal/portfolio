@@ -26,12 +26,14 @@
     .left {
       display: flex;
       position: relative;
+      padding-right: 0;
       @include md {
+        padding-right: 50px;
         width: 50%;
       }
       .image {
         height: 400px;
-        width: 450px;
+        width: 100%;
         overflow: hidden;
         border-radius: 20px;
         @include mb {
