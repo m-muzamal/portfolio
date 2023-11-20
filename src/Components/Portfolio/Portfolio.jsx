@@ -7,6 +7,8 @@ import web2 from "../../assets/web2.jpg";
 import web3 from "../../assets/web3.jpeg";
 import web4 from "../../assets/web4.jpg";
 import web5 from "../../assets/web5.jpeg";
+import web6 from "../../assets/web6.jpeg";
+import web7 from "../../assets/web7.jpeg";
 
 function Portfolio() {
   return (
@@ -206,6 +208,82 @@ function Portfolio() {
           <div className="left">
             <a href="https://gmate.netlify.app/" target="_blank">
               <img src={web5} alt="" />
+            </a>
+          </div>
+        </div>
+        <div className="content">
+          <div className="left">
+            <a href="https://e-comerc.netlify.app/" target="_blank">
+              <img src={web6} alt="" />
+            </a>
+          </div>
+          <div className="right">
+            <h3>ECOMMERCE 🛒</h3>
+            <p>
+              With a focus on simplicity and clean design, this store prioritize
+              user experience, making it easy for customers to find and purchase
+              the products they need.
+            </p>
+            <div className="btns">
+              <div className="btn">React</div>
+              <div className="btn">Vanila CSS</div>
+            </div>
+            <div className="btns2">
+              <div className="btn1">
+                <a
+                  href="https://github.com/m-muzamal/eCommerce/tree/main"
+                  target="_blank"
+                >
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
+              <div className="btn1">
+                <a href="https://e-comerc.netlify.app/" target="_blank">
+                  Live_Demo
+                </a>
+                <div className="icon box">
+                  <BsBoxArrowUpRight />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content content_reversed">
+          <div className="right">
+            <h3>COINDOM 💰</h3>
+            <p>
+              Coindom is a crypto app that allows users to search for
+              information about various cryptocurrencies in real-time.
+            </p>
+            <div className="btns">
+              <div className="btn">React</div>
+              <div className="btn">SCSS</div>
+            </div>
+            <div className="btns2">
+              <div className="btn1">
+                <a href="https://github.com/m-muzamal/coindom" target="_blank">
+                  Code
+                </a>
+                <div className="icon">
+                  <AiFillGithub />
+                </div>
+              </div>
+              <div className="btn1">
+                <a href="https://crypto-coindom.netlify.app/" target="_blank">
+                  Live_Demo
+                </a>
+                <div className="icon box">
+                  <BsBoxArrowUpRight />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="left">
+            <a href="https://crypto-coindom.netlify.app/" target="_blank">
+              <img src={web7} alt="" />
             </a>
           </div>
         </div>
