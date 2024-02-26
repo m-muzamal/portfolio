@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import { BsGithub } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
@@ -15,8 +15,8 @@ function Footer() {
           >
             <FaLinkedin />
           </a>
-          <a href="https://github.com/m-muzamal" target="_blank">
-            <BsGithub />
+          <a href="https://www.instagram.com/mzml_0/" target="_blank">
+            <FaInstagram />
           </a>
         </div>
       </div>

@@ -30,17 +30,6 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a
-                  href="https://github.com/m-muzamal/car-rantel"
-                  target="_blank"
-                >
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
-              <div className="btn1">
                 <a href="https://car-rantel.netlify.app/" target="_blank">
                   Live_Demo
                 </a>
@@ -76,17 +65,6 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a
-                  href="https://github.com/m-muzamal/buss_reservation_with_sql"
-                  target="_blank"
-                >
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
-              <div className="btn1">
                 <a href="">Live_Demo</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
@@ -109,14 +87,6 @@ function Portfolio() {
               <div className="btn">API</div>
             </div>
             <div className="btns2">
-              <div className="btn1">
-                <a href="https://github.com/m-muzamal/e-store" target="_blank">
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
               <div className="btn1">
                 <a href="https://e-sale.netlify.app/" target="_blank">
                   Live_Demo
@@ -152,17 +122,6 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a
-                  href="https://github.com/m-muzamal/m-muzamal.github.io"
-                  target="_blank"
-                >
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
-              <div className="btn1">
                 <a href="https://mzml.netlify.app/" target="_blank">
                   Live_Demo
                 </a>
@@ -187,14 +146,6 @@ function Portfolio() {
               <div className="btn">SCSS</div>
             </div>
             <div className="btns2">
-              <div className="btn1">
-                <a href="https://github.com/m-muzamal/gymate" target="_blank">
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
               <div className="btn1">
                 <a href="https://gmate.netlify.app/" target="_blank">
                   Live_Demo
@@ -230,17 +181,6 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a
-                  href="https://github.com/m-muzamal/eCommerce/tree/main"
-                  target="_blank"
-                >
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
-              <div className="btn1">
                 <a href="https://e-comerc.netlify.app/" target="_blank">
                   Live_Demo
                 </a>
@@ -263,14 +203,6 @@ function Portfolio() {
               <div className="btn">SCSS</div>
             </div>
             <div className="btns2">
-              <div className="btn1">
-                <a href="https://github.com/m-muzamal/coindom" target="_blank">
-                  Code
-                </a>
-                <div className="icon">
-                  <AiFillGithub />
-                </div>
-              </div>
               <div className="btn1">
                 <a href="https://crypto-coindom.netlify.app/" target="_blank">
                   Live_Demo
