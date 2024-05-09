@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="container">
-        <h2>Copyright © 2023. All rights are reserved.</h2>
+        <h2>Copyright © 2024. All rights are reserved.</h2>
         <div className="icon">
           <a
             href="https://www.linkedin.com/in/muhammad-muzammal-a9ba60201/"

@@ -9,6 +9,8 @@ import web4 from "../../assets/web4.jpg";
 import web5 from "../../assets/web5.jpeg";
 import web6 from "../../assets/web6.jpeg";
 import web7 from "../../assets/web7.jpeg";
+import web8 from "../../assets/web8.jpeg";
+import web9 from "../../assets/web9.jpeg";
 
 function Portfolio() {
   return (
@@ -65,7 +67,7 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a href="">Live_Demo</a>
+                <a>No deployed</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
@@ -216,6 +218,63 @@ function Portfolio() {
           <div className="left">
             <a href="https://crypto-coindom.netlify.app/" target="_blank">
               <img src={web7} alt="" />
+            </a>
+          </div>
+        </div>
+        <div className="content">
+          <div className="left">
+            <a href="">
+              <img src={web8} alt="" />
+            </a>
+          </div>
+          <div className="right">
+            <h3>Blog app 📖</h3>
+            <p>
+              A personal blog is an online platform for sharing thoughts, ideas,
+              and experiences, making it easier for readers to connect with the
+              author and engage in discussions by providing a space for regular
+              updates and reflections.
+            </p>
+            <div className="btns">
+              <div className="btn">React</div>
+              <div className="btn">CSS</div>
+              <div className="btn">SQL</div>
+            </div>
+            <div className="btns2">
+              <div className="btn1">
+                <a>No deployed</a>
+                <div className="icon box">
+                  <BsBoxArrowUpRight />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content content_reversed">
+          <div className="right">
+            <h3>Resturant app 👨‍🍳</h3>
+            <p>
+              A restaurant app is an online platform for browsing menus, making
+              reservations, and ordering food, making it easier for users to
+              discover and enjoy new dining experiences by providing convenient
+              access to information and services.
+            </p>
+            <div className="btns">
+              <div className="btn">React</div>
+              <div className="btn">CSS</div>
+            </div>
+            <div className="btns2">
+              <div className="btn1">
+                <a>No deployed</a>
+                <div className="icon box">
+                  <BsBoxArrowUpRight />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="left">
+            <a href="https://crypto-coindom.netlify.app/" target="_blank">
+              <img src={web9} alt="" />
             </a>
           </div>
         </div>

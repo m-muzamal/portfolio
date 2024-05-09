@@ -48,6 +48,9 @@
         flex-direction: column;
         margin-left: 1rem;
         justify-content: right;
+        a {
+          color: var(--color-secondary);
+        }
         h3 {
           font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
             sans-serif;
