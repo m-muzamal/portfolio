@@ -62,8 +62,7 @@ function Portfolio() {
             </p>
             <div className="btns">
               <div className="btn">React</div>
-              <div className="btn">CSS</div>
-              <div className="btn">SQL</div>
+              <div className="btn">MySQL</div>
             </div>
             <div className="btns2">
               <div className="btn1">
@@ -120,7 +119,6 @@ function Portfolio() {
             </p>
             <div className="btns">
               <div className="btn">React</div>
-              <div className="btn">CSS</div>
             </div>
             <div className="btns2">
               <div className="btn1">
@@ -146,6 +144,7 @@ function Portfolio() {
             <div className="btns">
               <div className="btn">React</div>
               <div className="btn">SCSS</div>
+              <div className="btn">MongoDB</div>
             </div>
             <div className="btns2">
               <div className="btn1">
@@ -237,8 +236,7 @@ function Portfolio() {
             </p>
             <div className="btns">
               <div className="btn">React</div>
-              <div className="btn">CSS</div>
-              <div className="btn">SQL</div>
+              <div className="btn">MySQL</div>
             </div>
             <div className="btns2">
               <div className="btn1">
@@ -261,7 +259,7 @@ function Portfolio() {
             </p>
             <div className="btns">
               <div className="btn">React</div>
-              <div className="btn">CSS</div>
+              <div className="btn">MongoDB</div>
             </div>
             <div className="btns2">
               <div className="btn1">
