@@ -67,7 +67,7 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a>No deployed</a>
+                <a>Not deployed</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
@@ -242,7 +242,7 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a>No deployed</a>
+                <a>Not deployed</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
@@ -265,7 +265,7 @@ function Portfolio() {
             </div>
             <div className="btns2">
               <div className="btn1">
-                <a>No deployed</a>
+                <a>Not deployed</a>
                 <div className="icon box">
                   <BsBoxArrowUpRight />
                 </div>
