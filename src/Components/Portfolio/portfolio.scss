@@ -130,6 +130,7 @@
       }
     }
     .content_reversed {
+      flex-direction: row-reverse;
       @include mb {
         flex-direction: column-reverse;
       }
